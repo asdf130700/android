@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_array">
+        <item>학과선택</item>
+        <item>컴퓨터공학전공</item>
+        <item>기계공학전공</item>
+        <item>전자공학전공</item>
+    </string-array>
+    <string-array name="my_array2">
+        <item>품목선택</item>
+        <item>도서</item>
+        <item>문구</item>
+        <item>의류</item>
+        <item>전자제품</item>
+        <item>생활용품</item>
+        <item>식품</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="my_array3">
+        <item>단과대학</item>
+        <item>공과대학</item>
+        <item>인문대학</item>
+        <item>경상대학</item>
+        <item>생명대학</item>
+    </string-array>
+</resources>

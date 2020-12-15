@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/darker_gray"
+    tools:context=".order_ly">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="372dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="373dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="19dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:backgroundTint="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="66dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="56dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="예약시간은" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="73dp"
+                android:layout_height="56dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="66dp"
+                android:layout_height="57dp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="입니다." />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="358dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="289dp"
+                            android:layout_height="match_parent">
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button5"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:backgroundTint="@android:color/background_light"
+                                android:gravity="top"
+                                android:text="삭제" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="97dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="76dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/pizza1" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="116dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center|start"
+                            android:text="페퍼로니 피자        12,900원"
+                            android:textSize="15sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/imageButton10"
+                            android:layout_width="25sp"
+                            android:layout_height="25sp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/down_hover" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="51dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textSize="27sp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/imageButton11"
+                            android:layout_width="25sp"
+                            android:layout_height="25sp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/up_hover" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="349dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="286dp"
+                        android:layout_height="match_parent">
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="match_parent"
+                            android:layout_height="63dp"
+                            android:backgroundTint="@android:color/background_light"
+                            android:gravity="top"
+                            android:text="삭제" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="93dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="79dp"
+                        android:layout_height="74dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/pizza" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|start"
+                        android:text="토마토 피자   12,900원"
+                        android:textSize="15sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="25sp"
+                        android:layout_height="25sp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/down_hover" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="27sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imageButton19"
+                        android:layout_width="25sp"
+                        android:layout_height="25sp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/up_hover" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="349dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:layout_width="68dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="영수증출력" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="14dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="33dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton"
+                    android:textSize="17sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="73dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="영수증출력" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="27dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="TextView" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="353dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="116dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="총 결제 금액"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="231dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:text="25,800원"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/background_dark"
+                android:text="주문완료"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
